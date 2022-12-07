@@ -19,6 +19,13 @@ end
 
 desc "Start the console"
 task :console do
+
+  puts "
+  
+  
+  
+  
+  "
   ActiveRecord::Base.logger = Logger.new(STDOUT)
   Pry.start
 end
